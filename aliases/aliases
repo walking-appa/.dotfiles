@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+# +----------+
+# | Personal |
+# +----------+
+
+# Folders
+alias work="$HOME/workspace"
+alias doc="$HOME/Documents"
+alias dow="$HOME/Downloads"
+alias dot="$HOME/.dotfiles"
