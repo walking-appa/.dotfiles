@@ -29,6 +29,7 @@ bindkey -M menuselect '^xn' accept-and-infer-next-history  # Next
 bindkey -M menuselect '^xu' undo                           # Undo
 
 autoload -U compinit; compinit
+autoload -U bashcompinit; bashcompinit
 _comp_options+=(globdots) # With hidden files
 
 # Only work with the Zsh function vman
@@ -102,3 +103,6 @@ zstyle -e ':completion:*:(ssh|scp|sftp|rsh|rsync):hosts' hosts 'reply=(${=${${(f
 ## For kubernetes
 source $DOTFILES/zsh/plugins/kubectl-completion/_kubectl
 zstyle ':completion:*:*:kubectl:*' list-grouped false
+
+## For az
+source $DOTFILES/zsh/plugins/az-completion/az.completion
