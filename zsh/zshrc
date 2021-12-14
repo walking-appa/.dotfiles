@@ -69,3 +69,9 @@ autoload -U gitit
 # +---------------------+
 
 source $DOTFILES/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+# +------------------------+
+# | SYNTAX AUTOSUGGESTIONS |
+# +------------------------+
+
+source $DOTFILES/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
