@@ -35,5 +35,6 @@ export NPM_CONFIG_PREFIX="$XDG_CONFIG_HOME/node_modules"
 export GIT_REVIEW_BASE=master # See gitconfig
 
 # PATH
+export PATH="/usr/local/go/bin:$PATH"                               # GO
 export PATH="$GOBIN:$PATH"                                          # GOBIN
 export PATH="$NPM_BIN:$PATH"                                        # NPM
